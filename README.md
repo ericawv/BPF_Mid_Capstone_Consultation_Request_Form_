@@ -34,7 +34,7 @@ https://user-images.githubusercontent.com/92328917/144343547-29c73bc9-8171-4352-
 👤 **Erica Vaught**
 
 * Github: [@ericavaught](https://github.com/ericawv)
-* LinkedIn: [@www.linkedin.com\/in\/ericavaught](https://linkedin.com/in/www.linkedin.com\/in\/ericavaught)
+* LinkedIn: [@www.linkedin.com\/in\/ericavaught](https://www.linkedin.com/in/ericavaught/)
 
 ## Show your support
 
