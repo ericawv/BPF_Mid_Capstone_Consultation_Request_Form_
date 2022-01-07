@@ -1,0 +1,158 @@
+ * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ } 
+
+body {
+    background: white;
+    width: 100%;
+    height: auto;  
+    overflow: hidden
+} 
+
+header {
+    background: white;
+    position: fixed;
+    height: auto;
+    top: 0;
+    left: 0;
+    width: 100%; 
+  
+}
+
+ h2 {
+    color: black;
+    font-size: 40px;
+    position: static;
+    margin-left: 4%;
+    line-height: 100%; 
+} 
+
+sup {
+    color: red  
+}
+
+#menu {
+    margin: 10px;
+    width: auto;
+    position: relative;
+    font-family: sans-serif;
+}
+
+#menu li {
+    display: block;
+    width: 150px;
+    float:right;
+    position: static;
+    margin-left: 4%;
+    line-height: 75%; 
+} 
+
+video {
+    position: fixed;
+    z-index: -1;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: auto; 
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: scale(1.1) translate(-50%, -50%);
+}
+
+.consult_form {
+    height: 390px;
+    width: 270px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.36);
+    color: white;
+    padding-top: 60px;
+}
+
+.consult_info h3 {
+    letter-spacing: 1px;
+}
+
+input {
+    width: 200px;
+    margin-top: 10px;
+    background: transparent;
+    outline: none;
+    padding: 10px;
+    font-size: 13px;
+    border-radius: 30px;
+    box-shadow: 0 0 4px black;
+    color: black;
+    transition: box-shadow 0.5s ease;
+}
+
+select {
+    width: 200px;
+    margin-top: 0%;
+    background: transparent;
+    outline: none;
+    padding: 8px;
+    font-size: 13px;
+    border-radius: 30px;
+    box-shadow: 0 0 4px black;
+    color: grey;
+    display: flex;
+    transition: box-shadow 0.5s ease; 
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.36); 
+}
+  
+button {
+    background-color: red;
+    padding: 5px 40px;
+    margin-top: 10px;
+    border-radius: 30px;
+    box-shadow: 0 0 4px red;
+    cursor: pointer;
+}
+
+button.submit {
+    background-color: red;
+    padding: 5px 40px;
+    margin-top: 35px;
+    border-radius: 30px;
+    box-shadow: 0 0 4px red;
+    cursor: pointer;
+ }
+
+ input:focus {
+    background-color: white; 
+    color: black;
+
+}  
+
+ input:focus,
+.submit:hover {
+    box-shadow: 0 0 10px #fff;
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+  
+  
+
+ 

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultation</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    
+    <h2>AV<sup>3</sup></h2>
+    <nav>
+      <ul id="menu">
+        <li>FAQs</li>
+        <li style='color: red'>Consultation</li>
+        <li>Investment</li>
+        <li>Home</li>
+      </ul> 
+    </nav> 
+        
+  </header> 
+
+  <!-- Start of the Consultation form -->
+
+  <form id="consult_form">
+
+    <div class="container"> 
+      <div class="consult_form">
+        <div class="consult_info">
+          <h3>Consultation Request</h3>
+        </div> 
+
+        <label for="first_name"></label>
+        <!-- Input field for First Name -->
+        <input type="text" id="input" onfocus="focusFunction()" onblur="blurFunction()" placeholder="First Name">  
+
+        <label for="last_name"></label>
+        <!-- Input field for Last Name -->
+        <input type="text" id="inputLast" onfocus="focusFunctionLast()" onblur="blurFunctionLast()" placeholder="Last Name"> 
+
+        <label for="phone"></label>
+         <!-- Input field for Phone Number -->
+        <input type="tel" id="inputPhone" onfocus="focusFunctionPhone()" onblur="blurFunctionPhone()"pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="000-000-0000">
+        <!-- Button to retreive the available consultation dates -->
+        <button id="availableConsultDates">View Available Dates</button> 
+        <section id="text" class="date_response"></section><p class="date_dispaly"></p>
+        <!-- Input field to enter available consultation date -->
+        <input type="text" id="dateRequest" onfocus="focusFunctionDate()" onblur="blurFunctionDate()" placeholder="Enter available date" > 
+        <br>
+
+        <!-- Start of the dropdown for selecting the event type -->
+        <select name="event_type" id="inputSelect" onfocus="focusFunctionSelect()" onblur="blurFunctionSelect()">
+          <option value="editing">Select Event Type</option>
+          <option value="wedding">Wedding</option>
+          <option value="Commercials">Commercial</option>
+          <option value="editing">Video Editing</option>
+          <option value="Other">Other</option>
+        </select>
+        <!-- End of the dropdown for selecting the event type -->
+
+        <!-- Button to submit the consultation request -->
+        <button id="bookAppointment" class="submit">Book</button> 
+      </div>
+    </div>
+
+  </form>
+   <!-- End of the Consultation form -->
+
+    <video autoplay muted loop id="video">
+      <source src="assets/reel.mp4" type="video/mp4">
+    </video> 
+
+    <section id="consult_container"></section>
+
+  
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="index.js"></script>
+ 
+</body>
+</html>
