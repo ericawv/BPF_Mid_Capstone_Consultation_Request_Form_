@@ -7,7 +7,7 @@
   </a>
 </p>
 
-> Hi! Thank you for visiting my Bright Paths Foundations Capstone Project Demo. The focus of this project is a Videographer Consultation Request Form. This demo highlights the features of the form that will ultimaetly allow potential clients to consult with the videographer regarding video needs.  
+> Hi! Thank you for visiting my Bright Paths Foundations Capstone Project Demo. The focus of this project is a Videographer Consultation Request Form. This demo highlights the features of the form that will ultimately allow potential clients to consult with the videographer regarding video needs.  
 
 ## Tech Stack
 
