@@ -16,6 +16,12 @@ Front-end Framework: HTML, CSS, JavaScript
 Back-end Framework: JavaScript, Express, Axios
 ```
 
+## Wireframe Link
+
+```sh
+https://www.figma.com/file/zPiMTCgXeBwjF4E1dpG6gF/Foundations_Capstone_Project?node-id=0%3A1
+```
+
 ## Features
 
 ```sh
